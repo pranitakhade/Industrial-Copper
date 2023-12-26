@@ -50,10 +50,10 @@ About the Data:
    - Interpret the model results and assess its performance based on the defined problem statement.
    - Same steps for Regression modelling.(note: dataset contains more noise and linearity between independent variables so itll perform well only with tree based models)
 6) Model GUI: Using streamlit module, create interactive page with
-   (1) task input( Regression or Classification) and 
-   (2) create an input field where you can enter each column value except ‘Selling_Price’ for regression model and  except ‘Status’ for classification model. 
+   (1) task input( Regression or Classification)
+   (2) create an input field where you can enter each column value except ‘Selling_Price’ for regression model and  except ‘Status’ for classification model.
    (3) perform the same feature engineering, scaling factors, log/any transformation steps which you used for training ml model and predict this new data from streamlit and display the output.
-7) Tips: Use pickle module to dump and load models such as encoder(onehot/ label/ str.cat.codes /etc), scaling models(standard scaler), ML models. First fit and then transform in separate line and use transform only for unseen data 
+7) Tips: Use pickle module to dump and load models such as encoder(onehot/ label/ str.cat.codes /etc), scaling models(standard scaler), ML models. First fit and then transform in separate line and use transform only for unseen data
 Eg: scaler = StandardScaler()
 scaler.fit(X_train)
 scaler.transform(X_train)
