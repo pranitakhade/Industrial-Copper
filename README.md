@@ -54,10 +54,10 @@ About the Data:
    2. create an input field where you can enter each column value except ‘Selling_Price’ for regression model and  except ‘Status’ for classification model.
    3. perform the same feature engineering, scaling factors, log/any transformation steps which you used for training ml model and predict this new data from streamlit and display the output.
 7) Tips: Use pickle module to dump and load models such as encoder(onehot/ label/ str.cat.codes /etc), scaling models(standard scaler), ML models. First fit and then transform in separate line and use transform only for unseen data
-    Eg: scaler = StandardScaler()
-    scaler.fit(X_train)
-    scaler.transform(X_train)
-    scaler.transform(X_test_new) #unseen data
+   Eg: scaler = StandardScaler()
+   scaler.fit(X_train)
+   scaler.transform(X_train)
+   scaler.transform(X_test_new) #unseen data
 
 ### The learning outcomes of this project are: 
 
