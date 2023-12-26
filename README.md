@@ -1,4 +1,4 @@
-# Industrial-Copper
+# Industrial Copper Modeling
 
 | Project Title | Industrial Copper Modeling |
 | --- | --- |
